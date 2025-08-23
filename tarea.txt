@@ -1,0 +1,20 @@
+En un proyecto vacío llamado "tareas" crear los componentes: login, registro, bienvenida, error, sobre-mi.
+Crear las rutas en el app.routes y la navegación en el App.ts.
+Utilizar plantillas propias o de internet para el diseño / estructura.
+
+Ejemplos:
+https://freefrontend.com/css-login-forms/
+https://getbootstrap.com/docs/5.3/examples/
+https://codepen.io/
+https://uiverse.io/
+https://htmlrev.com/free-html-templates.html
+etc.
+
+Pueden subir el proyecto a github y mandar el link por acá como respuesta, no es obligatorio pero si recomendado.
+
+Todo lo que hagan para esta tarea podrá ser utilizado para el primer TP.
+
+Saludos!
+
+https://codepen.io/marcobiedermann/pen/wKNGzo
+https://uiverse.io/AnthonyPreite/cowardly-cougar-44

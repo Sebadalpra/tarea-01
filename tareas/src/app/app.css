@@ -1,0 +1,7 @@
+body {
+  min-height: 100vh;       /* que ocupe toda la ventana */
+  display: flex;
+  justify-content: center; /* centra horizontal */
+  align-items: center;     /* centra vertical */
+  background: #000;        /* opcional, para ver el contraste */
+}

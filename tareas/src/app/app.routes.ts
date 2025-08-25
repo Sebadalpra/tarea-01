@@ -20,6 +20,10 @@ export const routes: Routes = [
         loadComponent: () => import('./pages/sobre-mi/sobre-mi').then(m => m.SobreMi)
     },
     {
+        path: 'error',
+        loadComponent: () => import('./pages/error/error').then(m => m.Error)
+    },
+    {
         path: '**',
         redirectTo: 'error'
     }

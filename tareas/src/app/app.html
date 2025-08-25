@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tareas</title>
 </head>
+
 <body>
   <main>
-    <h1>Tareas</h1>
+    <h1>Tareas - Sebastián Dalprá</h1>
     <nav class="navbar">
-      <a routerLink="/login">Login</a>
-      <a routerLink="/registro">Registro</a>
-      <a routerLink="/bienvenida">Bienvenida</a>
-      <a routerLink="/sobre-mi">Sobre Mi</a>
+      <aside class="sidebar">
+        <nav class="nav">
+          <ul>
+            <li><a routerLink="/bienvenida" routerLinkActive="active">Bienvenida</a></li>
+            <li><a routerLink="/login" routerLinkActive="active">Login</a></li>
+            <li><a routerLink="/registro" routerLinkActive="active">Registro</a></li>
+            <li><a routerLink="/sobre-mi" routerLinkActive="active">Sobre Mi</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <section class="main-container">
+        <div class="container">
+          <router-outlet />
+        </div>
+      </section>
     </nav>
-    <router-outlet />
   </main>
 </body>
+
 </html>

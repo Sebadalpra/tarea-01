@@ -1,39 +1,28 @@
-<p>login works!</p>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <main>
+<div class="session">
+    <div class="left">
 
-    <div id="form-ui">
-        <form action="" method="post" id="form">
-            <div id="form-body">
-                <div id="welcome-lines">
-                    <div id="welcome-line-1">Login</div>
-                    <div id="welcome-line-2">Welcome Back, Loyd</div>
-                </div>
-                <div id="input-area">
-                    <div class="form-inp">
-                        <input placeholder="Email Address" type="text">
-                    </div>
-                    <div class="form-inp">
-                        <input placeholder="Password" type="password">
-                    </div>
-                </div>
-                <div id="submit-button-cvr">
-                    <button id="submit-button" type="submit">Login</button>
-                </div>
-                <div id="forgot-pass">
-                    <a href="#">Forgot password?</a>
-                </div>
-                <div id="bar"></div>
-            </div>
-        </form>
     </div>
-</main>
-</body>
-</html>
+    <form action="" class="log-in" autocomplete="off">
+        <h4>We are <span>NUVA</span></h4>
+        <p>Welcome back! Log in to your account to view today's clients:</p>
+        <div class="floating-label">
+            <input placeholder="Email" type="email" name="email" id="email" autocomplete="off">
+            <label for="email">Email:</label>
+            <div class="icon">
+                
+
+            </div>
+        </div>
+        <div class="floating-label">
+            <input placeholder="Password" type="password" name="password" id="password" autocomplete="off">
+            <label for="password">Password:</label>
+            <div class="icon">
+
+ 
+            </div>
+
+        </div>
+        <button type="submit" onClick="formSubmit()">Log in</button>
+        <a href="https://codepen.io/elujambio/pen/yjwzGP" class="discrete" target="_blank">Basic version</a>
+    </form>
+</div>

@@ -1,1 +1,25 @@
-<p>registro works!</p>
+<div class="session">
+
+    <form action="" class="log-in" autocomplete="off">
+        <h4>Registro <span>NUVA</span></h4>
+        <p>Bienvenido! Regístrate para acceder a tu cuenta y disfrutar de nuestros servicios.</p>
+        <div class="floating-label">
+            <input class="me-5"placeholder="Nombre" type="text" name="nombre" id="nombre" autocomplete="off">
+            <label for="nombre">Nombre:</label>
+
+            <input placeholder="Apellido" type="text" name="apellido" id="apellido" autocomplete="off">
+            <label for="apellido">Apellido:</label>
+        </div>
+        <div class="floating-label">
+            <input class="me-5" placeholder="Email" type="email" name="email" id="email" autocomplete="off">
+            <label for="email">Email:</label>
+
+            <input placeholder="Password" type="password" name="password" id="password" autocomplete="off">
+            <label for="password">Password:</label>
+        </div>
+
+
+        <button type="submit" onClick="formSubmit()">Continuar</button>
+        <a routerLink="/login" class="discrete">Volver al login</a>
+    </form>
+</div>
